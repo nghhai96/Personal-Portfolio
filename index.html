@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id='navbar' class="navbar navbar-dark fixed-top">
+        <div class="container justify-content-center justify-content-md-end">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item m-3 my-md-3 ml-md-5">
+                    <a href="#welcome-section" class="nav-link">About</a>
+                </li>
+                <li class="nav-item m-3 my-md-3 ml-md-5">
+                    <a href="#projects" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item m-3 my-md-3 ml-md-5">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section
+        class="bg-dark bg-gradient text-light text-center d-flex align-items-center flex-column justify-content-center"
+        id='welcome-section'>
+        <h1>Hi! I'm Hai</h1>
+        <p>I'm on a journey to become a better programmer</p>
+    </section>
+
+    <!-- Projects -->
+    <section class="text-light p-5" id='projects'>
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project">
+                        <a href="https://codepen.io/nghhai96/pen/GRMRYzE" target='_blank'
+                            class="project-tile text-decoration-none">
+                            <img src="https://live.staticflickr.com/65535/51828119452_9a5b170189_o.png"
+                                alt="tribute page">
+                            <p class="project-title">
+                                <span class="code">&lt;</span> Tribute Page <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project">
+                        <a href="https://codepen.io/nghhai96/pen/qBPdPxv" target='_blank'
+                            class="project-tile text-decoration-none">
+                            <img src="https://live.staticflickr.com/65535/51829072376_7e1767aa22_o.png"
+                                alt="survey form">
+                            <p class="project-title">
+                                <span class="code">&lt;</span> Survey Form <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project">
+                        <a href="https://codepen.io/nghhai96/pen/abLMOxd" target='_blank'
+                            class="project-tile text-decoration-none">
+                            <img src="https://live.staticflickr.com/65535/51829072391_8fe444a16c_o.png"
+                                alt="product landing page">
+                            <p class="project-title">
+                                <span class="code">&lt;</span> Product Landing Page <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project">
+                        <a href="https://codepen.io/nghhai96/full/bGoJaye" target='_blank'
+                            class="project-tile text-decoration-none">
+                            <img src="https://live.staticflickr.com/65535/51829794315_12f5885db3_o.png"
+                                alt="technical document">
+                            <p class="project-title">
+                                <span class="code">&lt;</span> Technical Documents <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-grid col-md-6 col-10 mx-auto mt-5 text-center">
+            <a href="https://codepen.io/nghhai96" class="btn btn-outline-secondary btn-lg">Show all <i
+                    class="bi bi-chevron-right chevron-icon"></i></a>
+        </div>
+    </section>
+
+
+<!-- Contact -->
+    <section id="contact" class="p-5 text-center">
+        <h1 class='my-4'>Let's Work Together!</h1>
+        <a id='profile-link' href="https://github.com/nghhai96" target='_blank' class='btn btn-outline-dark btn-lg m-3'>
+            <i class="bi bi-github"></i> Github
+        </a>
+        <a id='profile-link' href="https://www.linkedin.com/in/hai-nguyen-317964a1/" target='_blank'
+            class='btn btn-outline-dark btn-lg m-3'>
+            <i class="bi bi-linkedin"></i> Linkedin
+        </a>
+        <a id='profile-link' href="https://www.facebook.com/profile.php?id=100002924449548" target='_blank'
+            class='btn btn-outline-dark btn-lg m-3'>
+            <i class="bi bi-facebook"></i> Facebook
+        </a>
+        <a id='profile-link' href="#" class='btn btn-outline-dark btn-lg m-3'>
+            <i class="bi bi-chat-left-dots-fill"></i> Email
+        </a>
+    </section>
+</body>
+
+</html>
